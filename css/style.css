@@ -17,6 +17,19 @@
   margin-right: 10%;
 }
 
+.button-white {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+.button-orange {
+  border-radius: 5px;
+  background-color: orange;
+  padding: 10px;
+}
+
+
+
 nav {
   height: 100px;
 }
@@ -32,20 +45,28 @@ nav {
 
 }
 
+ul {
+  display: flex;
+}
+
 li {
   display: inline-block;
-  padding: 20px;
+  padding: 0px;
+}
+
+.right {
+  float: right;
 }
 
 #jumbotron {
-  height: 750px;
+  height: 1000px;
   width: auto;
   background-image: url("../img/jumbotron.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
+/* DA QUA INIZIA IL MAIN CON LE TRE SEZIONI */
 #section1 {
   background-color: lightgrey;
   height: 500px;
