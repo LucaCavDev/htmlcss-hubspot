@@ -1,3 +1,67 @@
+/* regole generali */
+
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.margin {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav {
+  height: 100px;
+}
+
+#nav1 {
+  background-color: lightgrey;
+}
+
+#nav2 {
   background-color: red;
+  line-height: 100px;
+  vertical-align: middle;
+
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+#jumbotron {
+  height: 750px;
+  width: auto;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#section1 {
+  background-color: lightgrey;
+  height: 500px;
+}
+
+#section2 {
+  background-color: blue;
+  height: 500px;
+}
+
+#section3 {
+  background-color: white;
+  height: 500px;
+}
+
+footer {
+  background-color: grey;
+  height: 500px;
 }
