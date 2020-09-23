@@ -6,11 +6,11 @@
   box-sizing: border-box;
 }
 
-.clearfix::after {
+/*.clearfix::after {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 .margin {
   margin-left: 10%;
