@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>esercizio-hubspot</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   </head>
   <body>
 
@@ -16,14 +17,14 @@
         <!-- nei 2 nav metto le 2 stringhe iniziali di menu -->
 
         <!-- prima barra di menu -->
-        <nav id="nav1">
+        <nav id="nav1" class="normaltext">
           <section class="margin">
             <ul>
-              <li><a href="#">icona mondo English</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a class="button-zero" href="#"><i class="fas fa-globe"></i> English <i class="fab fa-vuejs"></i></a></li>
+              <li><a class="button-zero" href="#">Contact Us</a></li>
               <li class="right"><a class="button-orange" href="#">GetHubspotFree</a></li>
-              <li class="right"><a class="button-white "href="#">Log in</a></li>
-              <li class="right"><a href="#">Search</a></li>
+              <li class="right"><a class="button-white" href="#">Log in</a></li>
+              <li class="right"><a class="button-zero" href="#"><i class="fas fa-search"></i></a></li>
 
             </ul>
 
@@ -35,12 +36,12 @@
         <nav id="nav2">
           <section class="margin">
             <ul>
-              <li><a href="#"><img src="img/logo.svg"></a></li>
-              <li class="right"><a href="#">About</a></li>
-              <li class="right"><a href="#">Partners</a></li>
-              <li class="right"><a href="#">Reasources</a></li>
-              <li class="right"><a href="#">Pricing</a></li>
-              <li class="right"><a href="#">Software</a></li>
+              <li><a class="button-zero" href="#"><img src="img/logo.svg"></a></li>
+              <li class="right"><a class="button-zero" href="#">About <i class="fab fa-vuejs"></i></a></li>
+              <li class="right"><a class="button-zero" href="#">Partners <i class="fab fa-vuejs"></i></a></li>
+              <li class="right"><a class="button-zero" href="#">Reasources <i class="fab fa-vuejs"></i></a></li>
+              <li class="right"><a class="button-zero" href="#">Pricing</a></li>
+              <li class="right"><a class="button-zero" href="#">Software <i class="fab fa-vuejs"></i></a></li>
 
             </ul>
 
@@ -56,14 +57,14 @@
 
             </div>
             <h1>
-              There's a better way to grow
+              There's a better way to <br> grow.
             </h1>
 
             <div class="">
-              Marketing, sales and service software that help your business grow without compromise. Because "good for the business" should also mean "good for the customer."
+              Marketing, sales and service software that help your business grow without <br> compromise. Because "good for the business" should also mean "good for the <br> customer."
             </div>
 
-            <div class="">
+            <div class="button-orange">
               GetHubspotFree
             </div>
 
@@ -83,10 +84,10 @@
       <main>
 
         <!-- section1 -->
-        <section id="section1">
+        <section class="clearfix" id="section1">
 
           <!-- qua ci metto immaginetta con titoloe e sottotitolo -->
-          <div class="">
+          <div style="text-align:center;" class="">
             <div class="">
               <img src="img/cube.png" alt="">
 
@@ -103,7 +104,39 @@
           <!-- fine parte 1 su 3 della section2 -->
 
           <!-- quadrato largo -->
-          <div class="white-box-large">
+          <div class="white-box-large margin">
+            <!-- parte a sinistra -->
+            <div class="inlineb">
+              <div id="crm">
+                <img src="img/CRM-Illustration.svg" alt="">
+              </div>
+
+              <div class="">
+
+                Learn More
+
+              </div>
+
+            </div>
+
+            <!-- parte a destra -->
+            <div class="inlineb">
+              <div class="">
+                <h3>Free HubSpot CRM</h3>
+              </div>
+              <div class="">
+                Everything you need to organize, track, and build better relationships with lead and customers. Yes, it's 100% free. Forever.
+              </div>
+              <div class="">
+                POPOLAR FEATURE
+              </div>
+              <div class="">
+                V Contact Insight V Deals V Task
+
+              </div>
+
+
+            </div>
 
           </div>
           <!-- fine quadrato largo -->
@@ -112,6 +145,9 @@
           <div class="">
 
             <div class="white-box-thin">
+              <div class="img-thin-box">
+                <img src="img/Marketing-Hub-Free.svg" alt="">
+              </div>
 
             </div>
 
@@ -133,7 +169,8 @@
         <section id="section2">
           <!-- titolone -->
           <div class="">
-            learn and grow with award-winning support and a thriving community behin you.
+            <h2>Learn and grow with award-winning support and a thriving community behin you.</h2>
+
 
           </div>
 
