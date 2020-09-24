@@ -20,11 +20,11 @@
         <nav id="nav1" class="normaltext">
           <section class="margin">
             <ul>
-              <li style="border-right: solid 1px black;"><a class="button-zero" href="#"><i class="fas fa-globe"></i> English <i class="fab fa-vuejs"></i></a></li>
+              <li style="border-right: solid 1px black;"><a class="button-zero" href="#"><i id="world" class="fas fa-globe"></i> English <i class="fab fa-vuejs"></i></a></li>
               <li><a class="button-zero" href="#">Contact Us</a></li>
               <li  style="margin-left: 20px;" class="right"><a class="button-orange" href="#">GetHubspotFree</a></li>
               <li style="margin-left: 20px;" class="right"><a class="button-white" href="#">Log in</a></li>
-              <li class="right"><a class="button-zero" href="#"><i class="fas fa-search"></i></a></li>
+              <li class="right"><a class="button-zero" href="#"><i id="lens" class="fas fa-search"></i></a></li>
 
             </ul>
 
@@ -75,7 +75,6 @@
 
           </div>
 
-
         </section>
 
 
@@ -87,36 +86,38 @@
         <!-- section1 -->
         <section class="clearfix" id="section1">
 
-          <!-- qua ci metto immaginetta con titoloe e sottotitolo -->
+          <!-- prima parte della section1 - qua ci metto immaginetta con titoloe e sottotitolo -->
           <div style="text-align:center;" class="">
             <div class="">
-              <img src="img/cube.png" alt="">
-
+              <img style="padding-top: 100px; "src="img/cube.png" alt="">
             </div>
 
             <h2>Powerful Alone. Better Togheter.</h2>
 
-            <div class="">
-              HubSpot offers a full stack of software marketing, sales and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used togheter.
+            <div class="normaltext">
+              HubSpot offers a full stack of software marketing, sales and customer service, with a completely free CRM at its <br> core. They're powerful alone - but even better when used togheter.
             </div>
-
 
           </div>
           <!-- fine parte 1 su 3 della section2 -->
 
           <!-- quadrato largo -->
-          <div class="white-box-large margin">
+          <div style="margin-bottom: 50px;" class="white-box-large margin">
             <!-- parte a sinistra -->
             <div class="inlineb">
-              <div id="crm">
-                <img src="img/CRM-Illustration.svg" alt="">
+
+              <div class="center">
+                <div id="crm">
+                  <img src="img/CRM-Illustration.svg" alt="">
+                </div>
+
+                <div class="button-orange">
+                  Learn More
+                </div>
+
               </div>
 
-              <div class="">
 
-                Learn More
-
-              </div>
 
             </div>
 
@@ -125,14 +126,14 @@
               <div class="">
                 <h3>Free HubSpot CRM</h3>
               </div>
-              <div class="">
-                Everything you need to organize, track, and build better relationships with lead and customers. Yes, it's 100% free. Forever.
+              <div class="normaltext">
+                Everything you need to organize, track, and <br>build better relationships with lead and customers. Yes, it's 100% free. Forever.
               </div>
-              <div class="">
-                POPOLAR FEATURE
+              <div class="normaltext">
+                <strong>POPOLAR FEATURE</strong>
               </div>
-              <div class="">
-                V Contact Insight V Deals V Task
+              <div class="normaltext">
+                <i class="fas fa-chevron-circle-down"></i> Contact Insight &nbsp;&nbsp; <i class="fas fa-chevron-circle-down"></i> Deals &nbsp;&nbsp;<i class="fas fa-chevron-circle-down"></i> Task
 
               </div>
 
@@ -142,23 +143,94 @@
           </div>
           <!-- fine quadrato largo -->
 
-          <!-- tre colonne bianche -->
-          <div class="">
+          <!-- inizio div con dentro le tre colonne bianche -->
+          <div class="clearfix margin">
 
+            <!-- scatoletta1 -->
             <div class="white-box-thin">
               <div class="img-thin-box">
                 <img src="img/Marketing-Hub-Free.svg" alt="">
               </div>
 
+              <h3>Marketing Hub</h3>
+
+              <div class="normaltext">
+                Marketing software to help you grow <br>traffic, convert more visitors, and run <br>complete inbound marketing <br>campaigns at scale.
+              </div>
+              <hr>
+              <div class="normaltext">
+                <strong>POPULAR FEATURE</strong>
+              </div>
+
+              <div class="feature">
+                <div class="normaltext">
+                  <i class="fas fa-chevron-circle-down"></i> Lead Generation <br><i class="fas fa-chevron-circle-down"></i> Marketing Automation <br><i class="fas fa-chevron-circle-down"></i> Analytics
+                </div>
+              </div>
+
+              <div class="button-orange">
+                Learn More
+              </div>
+
             </div>
 
+            <!-- scatoletta2 -->
+            <div class="white-box-thin" id="sales">
+              <div class="img-thin-box">
+                <img src="img/Sales-Professional-Illustration.svg" alt="">
+              </div>
+
+              <h3>Sales Hub</h3>
+
+              <div class="normaltext">
+                Time-saving sales software that helps <br>you get deeper insights into prospects, <br>automate the tasks you hate, and close <br>more deals faster.
+              </div>
+              <hr>
+              <div class="normaltext">
+                <strong>POPULAR FEATURE</strong>
+              </div>
+
+              <div class="feature">
+                <div class="normaltext">
+                  <i class="fas fa-chevron-circle-down"></i> Email Traking <br><i class="fas fa-chevron-circle-down"></i> Meeting Scheduling <br><i class="fas fa-chevron-circle-down"></i> Email Automation
+                </div>
+              </div>
+
+              <div class="button-orange">
+                Learn More
+              </div>
+
+            </div>
+
+
+            <!-- scatoletta3 -->
             <div class="white-box-thin">
+              <div class="img-thin-box">
+                <img src="img/Service-Hub-Illustration.svg" alt="">
+              </div>
+
+              <h3>Service Hub</h3>
+
+              <div class="normaltext">
+                Customer service software to help you <br>connect with customers, exceed <br>expectations, and turn them into <br>promoters that grow your business.
+              </div>
+              <hr>
+              <div class="normaltext">
+                <strong>POPULAR FEATURE</strong>
+              </div>
+
+              <div class="feature">
+                <div class="normaltext">
+                  <i class="fas fa-chevron-circle-down"></i> Tickets <br><i class="fas fa-chevron-circle-down"></i> Customer Feedback <br><i class="fas fa-chevron-circle-down"></i> Knowledge base
+                </div>
+              </div>
+
+              <div class="button-orange">
+                Learn More
+              </div>
 
             </div>
 
-            <div class="white-box-thin">
-
-            </div>
 
           </div>
           <!-- fine tre colonne -->
