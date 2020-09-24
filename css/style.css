@@ -73,9 +73,7 @@ h2 {
 
 h3 {
   font-size: 25px;
-
 }
-
 
 .normaltext {
   font-size: 20px;
@@ -138,9 +136,9 @@ h3 {
 
 #jumbotron {
   height: 1000px;
-  width: auto;
+  width: 100%;
   background-image: url("../img/jumbotron.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -178,9 +176,13 @@ h3 {
 
 .center {
   text-align: center;
-  padding-left: 150px;
-  padding-right: 150px;
 }
+
+.padding150 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 
 .img-thin-box {
   display: block;
@@ -201,9 +203,14 @@ h3 {
 }
 
 #section2 {
-  background-color: blue;
-  height: 500px;
+  background-color: rgb(0, 175, 177);
+  min-height: 500px;
 }
+
+.whitefont {
+  color: white;
+}
+
 
 #section3 {
   background-color: white;
