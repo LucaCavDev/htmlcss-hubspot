@@ -36,18 +36,18 @@ nav {
 
 
 
-ul {
+header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+header li {
   float: left;
 }
 
-li a {
+header li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -68,7 +68,7 @@ h1 {
 h2 {
   font-size: 35px;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }
 
 h3 {
@@ -76,13 +76,13 @@ h3 {
 }
 
 .normaltext {
-  font-size: 20px;
+  font-size: 15px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .littletext {
-  font-size: 15px;
+  font-size: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -94,6 +94,10 @@ h3 {
 
 .right {
   float: right;
+}
+
+.left {
+  float: left;
 }
 
 .button-white {
@@ -211,13 +215,36 @@ h3 {
   color: white;
 }
 
-
 #section3 {
-  background-color: white;
+  background-color: yellow;
   height: 500px;
 }
 
 footer {
   background-color: grey;
   height: 500px;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+footer li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+footer strong {
+  color: white;
+}
+
+.rigona {
+  padding-top: 50px;
+}
+
+.colonne-footer2 {
+  padding-left: 2%;
+  padding-right: 2%;
 }
