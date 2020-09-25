@@ -31,9 +31,16 @@
 
 nav {
   height: 110px;
-  padding-top: 1%;
+  padding-top: 0.5%;
+
 }
 
+#due-nav-iniziali {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+
+}
 
 
 header ul {
@@ -59,6 +66,27 @@ li a:hover:not(.active) {
   background-color: blue;
 }
 
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.fas {
+  color: orange;
+}
+
+.center {
+  text-align: center;
+}
+
+.feature {
+  text-align: left;
+}
+
+/* formati e colori testo */
 h1 {
   font-size: 50px;
   padding-top: 80px;
@@ -87,18 +115,16 @@ h3 {
   padding-bottom: 30px;
 }
 
+.whitefont {
+  color: white;
+}
+
+/* bottoni vari */
 .button-orange:hover:not(.active){
   background-color: blue;
   cursor: pointer;
 }
 
-.right {
-  float: right;
-}
-
-.left {
-  float: left;
-}
 
 .button-white {
   border-radius: 5px;
@@ -117,6 +143,11 @@ h3 {
   padding: 20px;
 }
 
+/* fine bottoni vari */
+
+
+
+
 #world {
   color: grey;
 }
@@ -125,12 +156,10 @@ h3 {
   color: darkblue;
 }
 
-.fas {
-  color: orange;
-}
+
 
 #nav1 {
-  background-color: lightgrey;
+  background-color: rgb(232, 238, 242);
   border-bottom: 1px solid black;
 }
 
@@ -139,10 +168,11 @@ h3 {
 }
 
 #jumbotron {
+  padding-top: 220px;
   height: 1000px;
   width: 100%;
   background-image: url("../img/jumbotron.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -178,9 +208,7 @@ h3 {
   height: 750px;
 }
 
-.center {
-  text-align: center;
-}
+
 
 .padding150 {
   padding-left: 100px;
@@ -197,9 +225,7 @@ h3 {
 
 
 
-.feature {
-  text-align: left;
-}
+
 
 #sales {
   margin-right: 5%;
@@ -211,18 +237,17 @@ h3 {
   min-height: 500px;
 }
 
-.whitefont {
-  color: white;
-}
+
 
 #section3 {
   background-color: yellow;
-  height: 500px;
+  min-height: 500px;
 }
 
+/* cose specifiche nel footer */
 footer {
-  background-color: grey;
-  height: 500px;
+  background-color: rgb(50, 73, 91);
+  min-height: 500px;
 }
 
 footer a {
@@ -247,4 +272,37 @@ footer strong {
 .colonne-footer2 {
   padding-left: 2%;
   padding-right: 2%;
+}
+
+#linguefooter {
+  border-bottom: solid 1px white;
+  width: 80%;
+}
+
+#ultima-riga-pagina {
+  width: 80%
+
+}
+
+.ulfinali {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ulfinali li {
+  float: left;
+}
+
+.ulfinali li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+#inglese  {
+  padding-left: 25%;
 }
