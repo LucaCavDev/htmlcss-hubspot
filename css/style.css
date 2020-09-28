@@ -76,7 +76,7 @@ header li a {
 
 /* questa è una classe per le icone, in questo momento sta venendo applicata (data la presenza di altri id) alle v nei box bianchi di sezione1 */
 .fas {
-  color: orange;
+  color: 	rgb(254, 122, 94);
 }
 
 /* text-aling centro e sinistra */
@@ -133,21 +133,33 @@ h3 {
   cursor: pointer;
 }
 
-.button-white {
+.button-white1 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid rgb(254, 122, 94);
+  color: rgb(254, 122, 94);
+}
+
+.button-white2 {
   border-radius: 5px;
   background-color: white;
   padding: 20px;
 }
 
+
 .button-orange {
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(254, 122, 94);
   padding: 20px;
+  color: white;
 }
 
 .button-zero {
   border-radius: 5px;
   padding: 20px;
+  font-size: 15px;
+  color: 	rgb(67, 85, 102);
 }
 
 /* fine bottoni vari */
@@ -268,7 +280,7 @@ h3 {
   padding-bottom: 20px;
 }
 
-.tabella littletext {
+.tabella .littletext {
   padding-top: 0px;
 }
 
@@ -279,6 +291,21 @@ h3 {
 .borderleft {
   border-left: 1px solid white;
 }
+
+#section2 h2 {
+  color: white;
+}
+
+#section2 .normaltext {
+  color: white;
+}
+
+
+#section2 .littletext {
+  color: white;
+}
+
+
 
 /* SEZIONE 3 */
 
