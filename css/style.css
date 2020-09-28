@@ -106,7 +106,7 @@ h2 {
 
 h3 {
   font-size: 25px;
-  color: 	rgb(67, 85, 102);
+  color:	rgb(67, 85, 102);
 }
 
 .normaltext {
@@ -300,7 +300,6 @@ h3 {
   color: white;
 }
 
-
 #section2 .littletext {
   color: white;
 }
@@ -333,6 +332,18 @@ h3 {
 
 #riquadro-top h2 {
   padding-top: 0px;
+}
+
+#section3 h2 {
+  color: rgb(67, 85, 102);
+}
+
+#section3 .normaltext {
+  color: rgb(67, 85, 102);
+}
+
+#section3 .littletext {
+  color: rgb(67, 85, 102);
 }
 
 /* cose specifiche nel footer */
