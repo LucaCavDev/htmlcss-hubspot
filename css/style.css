@@ -94,28 +94,33 @@ h1 {
   font-size: 50px;
   padding-top: 80px;
   padding-bottom: 80px;
+  color: 	rgb(67, 85, 102);
 }
 
 h2 {
   font-size: 35px;
   padding-top: 80px;
   padding-bottom: 20px;
+  color: 	rgb(67, 85, 102);
 }
 
 h3 {
   font-size: 25px;
+  color: 	rgb(67, 85, 102);
 }
 
 .normaltext {
   font-size: 15px;
   padding-top: 40px;
   padding-bottom: 40px;
+  color: 	rgb(67, 85, 102);
 }
 
 .littletext {
   font-size: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
+  color: 	rgb(67, 85, 102);
 }
 
 .whitefont {
@@ -278,24 +283,30 @@ h3 {
 /* SEZIONE 3 */
 
 #section3 {
-  background-color: yellow;
+  background-color: white;
   min-height: 800px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #riquadro-top {
   margin-bottom: 150px;
-  padding-top: 150px;
 }
 
 .spaziimm {
-  width: 250px;
+  margin: 20px;
+  width: 150px;
   height: auto;
+
 }
 .immriquadro {
   height: auto;
   max-width: 100%;
 }
 
+#riquadro-top h2 {
+  padding-top: 0px;
+}
 
 /* cose specifiche nel footer */
 footer {
