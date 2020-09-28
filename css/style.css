@@ -275,13 +275,27 @@ h3 {
   border-left: 1px solid white;
 }
 
-
-
+/* SEZIONE 3 */
 
 #section3 {
   background-color: yellow;
-  height: 800px;
+  min-height: 800px;
 }
+
+#riquadro-top {
+  margin-bottom: 150px;
+  padding-top: 150px;
+}
+
+.spaziimm {
+  width: 250px;
+  height: auto;
+}
+.immriquadro {
+  height: auto;
+  max-width: 100%;
+}
+
 
 /* cose specifiche nel footer */
 footer {
